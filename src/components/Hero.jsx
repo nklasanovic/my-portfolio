@@ -22,7 +22,7 @@ const Hero = () => {
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white text-[18px] font-semibold px-8 py-3 border-none rounded-xl ml-8"
-                href="#"
+                href="https://drive.google.com/file/d/1_5MwvX6mqpPQVBt0rP9yADHkYAqQpjsJ/view?usp=share_link"
               >
                 Resume
               </a>
