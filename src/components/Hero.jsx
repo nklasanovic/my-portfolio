@@ -5,7 +5,7 @@ import MyPic from "../assets/images/image.jpg";
 
 const Hero = () => {
   const fileUrl =
-    "https://drive.google.com/file/d/1_5MwvX6mqpPQVBt0rP9yADHkYAqQpjsJ/view?usp=share_link";
+    "https://drive.google.com/file/d/1pDbGDOkAEvtzGgNSaFkAyjZ6EoXdzzs9/view?usp=sharing";
 
   return (
     <>
