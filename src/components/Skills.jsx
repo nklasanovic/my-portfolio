@@ -34,19 +34,19 @@ const Skills = () => {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-center">
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={HtmlImg}
               alt="HTML"
             />
             <h4 className="hidden md:block text-xl font-bold">HTML</h4>
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
-            <img className="w-28 h-28 object-cover mt-4" src={CSS} alt="CSS" />
+            <img className="w-20 h-20 object-cover mt-4" src={CSS} alt="CSS" />
             <h4 className="hidden md:block text-xl font-bold">CSS</h4>
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={Javascript}
               alt="Javascript"
             />
@@ -54,7 +54,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={ReactImg}
               alt="React"
             />
@@ -62,7 +62,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={Angular}
               alt="Angular"
             />
@@ -70,7 +70,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={Tailwind}
               alt="Tailwind"
             />
@@ -78,7 +78,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={Bootstrap}
               alt="Bootstrap"
             />
@@ -86,7 +86,7 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center justify-center bg-transparent rounded-xl shadow-xl shadow-black/50 hover:scale-105 duration-500">
             <img
-              className="w-28 h-28 object-cover"
+              className="w-20 h-20 object-cover"
               src={Github}
               alt="Github"
             />

@@ -4,6 +4,9 @@ import { TypeAnimation } from "react-type-animation";
 import MyPic from "../assets/images/image.jpg";
 
 const Hero = () => {
+  const fileUrl =
+    "https://drive.google.com/file/d/1_5MwvX6mqpPQVBt0rP9yADHkYAqQpjsJ/view?usp=share_link";
+
   return (
     <>
       {/* Hero Section */}
@@ -22,7 +25,8 @@ const Hero = () => {
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 bg-cyan-500 text-white text-[18px] font-semibold px-8 py-3 border-none rounded-xl ml-8"
-                href="https://drive.google.com/file/d/1_5MwvX6mqpPQVBt0rP9yADHkYAqQpjsJ/view?usp=share_link"
+                href={fileUrl}
+                download
               >
                 Resume
               </a>

@@ -1,6 +1,4 @@
 import React from "react";
-import { SiCss3, SiReact, SiTailwindcss } from "react-icons/si";
-import { TbApi } from "react-icons/tb";
 import Carousel from "../assets/images/projects/carousel.png";
 import Fastfood from "../assets/images/projects/fastfood.png";
 import Todo from "../assets/images/projects/todo.png";
@@ -19,26 +17,6 @@ const Projects = () => {
             <img src={Weather} alt="/" className="w-full h-48 object-cover" />
             <div className="flex flex-col p-6 justify-center items-center">
               <h3 className="text-xl font-bold mb-2">Weather Forecast</h3>
-              <ul className="hidden md:flex gap-6 mb-2 font-bold">
-                <li>
-                  <SiReact
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-                <li>
-                  <SiTailwindcss
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-                <li>
-                  <TbApi
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-              </ul>
               <a
                 href="https://weather-forecast-all.netlify.app/"
                 target="_blank"
@@ -54,20 +32,6 @@ const Projects = () => {
               <h3 className="text-xl font-bold mb-2">
                 Dash n' Dine - Landing Page
               </h3>
-              <ul className="hidden md:flex gap-6 mb-2 font-bold">
-                <li>
-                  <SiReact
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-                <li>
-                  <SiTailwindcss
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-              </ul>
               <a
                 href="https://dashndine-project.netlify.app"
                 target="_blank"
@@ -81,20 +45,6 @@ const Projects = () => {
             <img src={Todo} alt="/" className="w-full h-48 object-cover" />
             <div className="flex flex-col p-6 justify-center items-center">
               <h3 className="text-xl font-bold mb-2">Todo App</h3>
-              <ul className="hidden md:flex gap-6 mb-2 font-bold">
-                <li>
-                  <SiReact className="text-cyan-700 rounded-full" size={40} />
-                </li>
-                <li>
-                  <SiTailwindcss
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-                <li>
-                  <SiCss3 className="text-cyan-700 rounded-full" size={40} />
-                </li>
-              </ul>
               <a
                 href="https://todolistprojecttasks.netlify.app"
                 target="_blank"
@@ -108,20 +58,6 @@ const Projects = () => {
             <img src={Carousel} alt="/" className="w-full h-48 object-cover" />
             <div className="flex flex-col p-6 justify-center items-center">
               <h3 className="text-xl font-bold mb-2">Image Carousel</h3>
-              <ul className="hidden md:flex gap-6 mb-2 font-bold">
-                <li>
-                  <SiReact className="text-cyan-700 rounded-full" size={40} />
-                </li>
-                <li>
-                  <SiTailwindcss
-                    className="text-cyan-700 rounded-full"
-                    size={40}
-                  />
-                </li>
-                <li>
-                  <SiCss3 className="text-cyan-700 rounded-full" size={40} />
-                </li>
-              </ul>
               <a
                 href="https://imagecarouseproject.netlify.app"
                 target="_blank"
